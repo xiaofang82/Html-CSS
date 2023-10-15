@@ -9,6 +9,28 @@ My instructor Andre has certain requirements for the overall layout and color sc
 Firstly, we unanimously decided to use blue as the color scheme, which is in line with our positioning for the website design. Tourism is like flying freely in the sky like a bird, and swimming in the sea like a fish.We have chosen artistic fonts for the title in the header section of the website to enhance aesthetics. The super banner uses a full screen landscape image with bold and enlarged text to highlight the entire website theme. I really like this design.  
 ![Super Banner](https://raw.githubusercontent.com/xiaofang82/Html-CSS/main/assets/img/superbanner.png)  
 Responsive website design is the most practical technique I have learned in this course. Changing the website layout according to the size of the browser makes the overall appearance more comfortable and does not cause clutter due to different devices. I am glad to have successfully applied it in this project.  
+
+> @media screen and (max-width: 768px) {
+>     main .pic img{
+>         width : 100%;
+>     }
+>     main .column{
+>         width: 100%;
+>     }
+>     main .column:nth-of-type(1) {
+>         box-shadow: 0px 0px 0px;
+>     } 
+>     
+> }
+> 
+> @media screen and (max-width: 480px) {
+>     .aboutus_column {
+>         width: calc(50% - 10px);
+>     }
+>     
+> }
+
+
 * Laptop  
  ![Laptop](https://raw.githubusercontent.com/xiaofang82/Html-CSS/main/assets/img/contact1.png)
 * Cellphone  
