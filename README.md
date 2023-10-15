@@ -16,18 +16,18 @@ Responsive website design is the most practical technique I have learned in this
 
 The above two images show the effects displayed on Laptop and mobile phones, including a map where the positioning is done using the pseudo attribute’::before’. After I finished, I found that the position of the positioning icon always changes every time I adjust the size of the browser, and it is not an absolute positioning. I used Google to search for the reasons and solutions that caused this problem, and finally solved it through multiple experiments.
 
-> .maps {
->     position: relative;
-> }
-> 
-> .maps::before {
->     display:inline-block;
-> 	position:absolute;
->     top: 46%;
->     left: 52%;
->     width: 40px;
->     height: 40px;
->     content: "";
->     background-image: url("../img/spot.png");
->     background-size: 40px;
-> }
+> .maps {  
+>     position: relative;  
+> }  
+>   
+> .maps::before {  
+>     display:inline-block;  
+> 	position:absolute;  
+>     top: 46%;  
+>     left: 52%;  
+>     width: 40px;  
+>     height: 40px;  
+>     content: "";  
+>     background-image: url("../img/spot.png");  
+>     background-size: 40px;  
+> }  
