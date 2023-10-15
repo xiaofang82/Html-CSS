@@ -126,3 +126,5 @@ The four images on the homepage demonstrate the use of grid layout and response.
 >     }  
 > }  
 ![Index](https://raw.githubusercontent.com/xiaofang82/Html-CSS/main/assets/img/index4.png)
+
+#### I hope to have a better grasp of the details in the next website project, such as viewing changes in text size and adjusting link colors on different devices.
