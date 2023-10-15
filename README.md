@@ -9,5 +9,4 @@
 ![Super Banner](https://raw.githubusercontent.com/xiaofang82/Html-CSS/main/assets/img/superbanner.png)
 #### Responsive website design is the most practical technique I have learned in this course. Changing the website layout according to the size of the browser makes the overall appearance more comfortable and does not cause clutter due to different devices. I am glad to have successfully applied it in this project.
 * Laptop ![Laptop](https://raw.githubusercontent.com/xiaofang82/Html-CSS/main/assets/img/contact1.png)
-* Cellphone
-![Cellphone](https://raw.githubusercontent.com/xiaofang82/Html-CSS/main/assets/img/contact2.png)
+* Cellphone ![Cellphone](https://raw.githubusercontent.com/xiaofang82/Html-CSS/main/assets/img/contact2.png)
