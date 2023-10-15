@@ -72,6 +72,7 @@ The above two images show the effects displayed on Laptop and mobile phones, inc
 >     background-size: 40px;  
 > }  
 
+The four images on the homepage demonstrate the use of grid layout and response.  
 
 > .column {
 >     flex: 1 0 auto;
