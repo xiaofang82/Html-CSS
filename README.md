@@ -29,6 +29,18 @@ Here is also a small technique used to make the image less bright and make the t
 Responsive website design is the most practical technique I have learned in this course. Changing the website layout according to the size of the browser makes the overall appearance more comfortable and does not cause clutter due to different devices. I am glad to have successfully applied it in this project.  
 
 > @media screen and (max-width: 768px) {  
+>    .column {  
+>        width: calc(50% - 10px);  
+>    }  
+>}  
+>  
+> @media screen and (max-width: 480px) {  
+>    .column {  
+>         width: 100%;  
+>     }  
+> }  
+![Index](https://raw.githubusercontent.com/xiaofang82/Html-CSS/main/assets/img/index4.png)
+> @media screen and (max-width: 768px) {  
 >     main .pic img{  
 >         width : 100%;  
 >     }  
@@ -53,6 +65,8 @@ Responsive website design is the most practical technique I have learned in this
  ![Laptop](https://raw.githubusercontent.com/xiaofang82/Html-CSS/main/assets/img/contact1.png)
 * Cellphone  
  ![Cellphone](https://raw.githubusercontent.com/xiaofang82/Html-CSS/main/assets/img/contact2.png)
+
+
 
 The above two images show the effects displayed on Laptop and mobile phones, including a map where the positioning is done using the pseudo attribute’::before’. After I finished, I found that the position of the positioning icon always changes every time I adjust the size of the browser, and it is not an absolute positioning. I used Google to search for the reasons and solutions that caused this problem, and finally solved it through multiple experiments. The solution is to change the use of pixel positioning for the top, right, left, and bottom positioning attributes to use percentage.
 
