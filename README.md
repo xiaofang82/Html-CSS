@@ -22,7 +22,7 @@ The above two images show the effects displayed on Laptop and mobile phones, inc
 >   
 > .maps::before {  
 >     display:inline-block;  
-> 	position:absolute;  
+> 	  position:absolute;  
 >     top: 46%;  
 >     left: 52%;  
 >     width: 40px;  
