@@ -7,7 +7,25 @@
 My instructor Andre has certain requirements for the overall layout and color scheme of the website. We researched a lot of websites which are modern and fashionable. At the beginning we wanted build a website for information technology company, but after our discussion and experimentation, we ultimately chose a travel company website that can give us more space to design.  
   
 Firstly, we unanimously decided to use blue as the color scheme, which is in line with our positioning for the website design. Tourism is like flying freely in the sky like a bird, and swimming in the sea like a fish.We have chosen artistic fonts for the title in the header section of the website to enhance aesthetics. The super banner uses a full screen landscape image with bold and enlarged text to highlight the entire website theme. I really like this design.  
-![Super Banner](https://raw.githubusercontent.com/xiaofang82/Html-CSS/main/assets/img/superbanner.png)  
+![Super Banner](https://raw.githubusercontent.com/xiaofang82/Html-CSS/main/assets/img/superbanner.png)    
+Here is also a small technique used to make the image less bright and make the text look more comfortable.  
+> .hero {  
+>     position: relative;  
+>     background:   
+>         linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),  
+>         url('../img/hero.webp') center center / cover no-repeat;  
+> }  
+>   
+> .hero::after {  
+>     position: absolute;  
+>     inset: 0 auto auto 0;  
+>     content: '';  
+>     width: 100%;  
+>     height: 100%;  
+>     background-color: rgb(0 0 0 / 0.4);  
+>     z-index: -2;  
+> }  
+
 Responsive website design is the most practical technique I have learned in this course. Changing the website layout according to the size of the browser makes the overall appearance more comfortable and does not cause clutter due to different devices. I am glad to have successfully applied it in this project.  
 
 > @media screen and (max-width: 768px) {  
