@@ -4,4 +4,4 @@
 
 ### This project is a travel company website that built using HTML and CSS language. The team member is Zhixin, Xiaofang(me) and Tieyao.
 
-#### We researched a lot of websites which are modern and fashionable.
+#### We researched a lot of websites which are modern and fashionable. My instructor Andre has certain requirements for the overall layout and color scheme of the website.
