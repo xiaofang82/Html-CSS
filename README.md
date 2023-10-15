@@ -10,25 +10,25 @@ Firstly, we unanimously decided to use blue as the color scheme, which is in lin
 ![Super Banner](https://raw.githubusercontent.com/xiaofang82/Html-CSS/main/assets/img/superbanner.png)  
 Responsive website design is the most practical technique I have learned in this course. Changing the website layout according to the size of the browser makes the overall appearance more comfortable and does not cause clutter due to different devices. I am glad to have successfully applied it in this project.  
 
-> @media screen and (max-width: 768px) {
->     main .pic img{
->         width : 100%;
->     }
->     main .column{
->         width: 100%;
->     }
->     main .column:nth-of-type(1) {
->         box-shadow: 0px 0px 0px;
->     } 
->     
-> }
+> @media screen and (max-width: 768px) {  
+>     main .pic img{  
+>         width : 100%;  
+>     }  
+>     main .column{  
+>         width: 100%;  
+>     }  
+>     main .column:nth-of-type(1) {  
+>         box-shadow: 0px 0px 0px;  
+>     }   
+>       
+> }  
 > 
-> @media screen and (max-width: 480px) {
->     .aboutus_column {
->         width: calc(50% - 10px);
->     }
->     
-> }
+> @media screen and (max-width: 480px) {  
+>     .aboutus_column {  
+>         width: calc(50% - 10px);  
+>     }  
+>       
+> }  
 
 
 * Laptop  
